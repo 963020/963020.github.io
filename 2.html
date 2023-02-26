@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>电脑博士</title>
+<title>三中三会员资料</title>
 </head>
 <html>
     <body>
@@ -14,19 +14,19 @@
             function password() 
             {
                 var testV = 1;
-                var pass1 = prompt('请输入密码:','');
+                var pass1 = prompt('请输入会员密码查看资料:','');
                 while (testV < 3) 
                 {
                     if (!pass1)
                     history.go(-1);
                     if (pass1 == "123456") 
                     {
-                        alert('密码正确!');
+                        alert('会员密码正确!');
                         break;
                     }
                     testV+=1;
                     var pass1 =
-                    prompt('密码错误!请重新输入:');
+                    prompt('会员密码错误!请重新输入:');
                 }
                 if (pass1!="password" & testV ==3)
                 history.go(-1);
@@ -35,12 +35,6 @@
             document.write(password());
         </SCRIPT>
 
-        <div width="1000">
-            <video width="1000" controls="controls">
-              <source src="test/video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
-        </div>  
-
+       
     </body>
 </html>
